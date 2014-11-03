@@ -16,6 +16,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        initDate();
     }
 
     override func didReceiveMemoryWarning() {
@@ -37,9 +38,6 @@ class ViewController: UIViewController {
             println("加载图片资源:\(i)")
         }
         
-        
-
-        
     }
 
 
@@ -53,5 +51,3 @@ class ViewController: UIViewController {
 
 
 
-
- android:background="@color/white"
